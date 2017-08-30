@@ -15,7 +15,7 @@ var browserSync = require('browser-sync');
 gulp.task('browser-sync', function () {
     browserSync({
         server: {
-            baseDir: "./docs/"
+            baseDir: "./"
         }
     });
 });
@@ -25,13 +25,13 @@ gulp.task('bs-reload', function () {
 });
 
 gulp.task('images', function () {
-    gulp.src('docs/images/**/*')
-        .pipe(cache(imagemin({optimizationLevel: 3, progressive: true, interlaced: true})))
-        .pipe(gulp.dest('docs/images/'));
+    gulp.src('images/**/*')
+        .pipe(cache(imagemin({ optimizationLevel: 3, progressive: true, interlaced: true })))
+        .pipe(gulp.dest('images/'));
 });
 
 gulp.task('styles', function () {
-    gulp.src(['docs/scss/style.scss'])
+    gulp.src(['scss/style.scss'])
         .pipe(plumber({
             errorHandler: function (error) {
                 console.log(error.message);
@@ -40,15 +40,15 @@ gulp.task('styles', function () {
         }))
         .pipe(sass())
         .pipe(autoprefixer('last 2 versions'))
-        .pipe(gulp.dest('docs/css/'))
-        .pipe(rename({suffix: '.min'}))
+        .pipe(gulp.dest('css/'))
+        .pipe(rename({ suffix: '.min' }))
         .pipe(minifycss())
-        .pipe(gulp.dest('docs/css/'))
-        .pipe(browserSync.reload({stream: true}));
+        .pipe(gulp.dest('css/'))
+        .pipe(browserSync.reload({ stream: true }));
 });
 
 // gulp.task('scripts', function () {
-//     return gulp.src('docs/js/**/*.js')
+//     return gulp.src('js/**/*.js')
 //         .pipe(plumber({
 //             errorHandler: function (error) {
 //                 console.log(error.message);
@@ -56,16 +56,16 @@ gulp.task('styles', function () {
 //             }
 //         }))
 //         .pipe(concat('main.js'))
-//         .pipe(gulp.dest('docs/js/'))
+//         .pipe(gulp.dest('js/'))
 //         .pipe(rename({suffix: '.min'}))
 //         .pipe(uglify())
-//         .pipe(gulp.dest('docs/js/'))
+//         .pipe(gulp.dest('js/'))
 //         .pipe(browserSync.reload({stream: true}))
 // });
 
 gulp.task('default', ['browser-sync'], function () {
-    gulp.watch("docs/scss/**/*.scss", ['styles']);
-    gulp.watch("docs/js/**/*.js");
-    // gulp.watch("docs/js/**/*.js", ['scripts']);
+    gulp.watch("scss/**/*.scss", ['styles']);
+    gulp.watch("js/**/*.js");
+    // gulp.watch("js/**/*.js", ['scripts']);
     gulp.watch("*.html", ['bs-reload']);
 });
