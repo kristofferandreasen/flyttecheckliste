@@ -1,10 +1,9 @@
 [![logo](https://cto-security-checklist.sqreen.io/images/github.jpg)](https://cto-security-checklist.sqreen.io/)
 
-# The SaaS CTO Security Checklist
+# Flytte checkliste
 
-[https://cto-security-checklist.sqreen.io/](https://cto-security-checklist.sqreen.io/)
+Denne checkliste er lavet for at hjælpe folk med alle de ting, som skal gøres inden man flytter fra sin lejlighed. Den er henvendt til folk, som har betalt depositum og gerne vil have så meget tilbage som muligt. Derfor viser listen både rengøring og andre centrale ting.
 
-This is a basic checklist that all SaaS CTOs (and anyone else) can use to harden their security. Security shouldn’t feel like a chore. Select your startup stage and use these rules to improve your security. This list is far from exhaustive, incomplete by nature since the security you need depends on your assets.
+## Mangler der noget?
 
-Please take a look at the [contribution guidelines](https://github.com/sqreen/CTOSecurityChecklist/blob/master/CONTRIBUTING.md) before contributing.
-
+Hvis der mangler noget må du meget gerne kontakte mig eller lave et pull request med ændringer her på Github.
