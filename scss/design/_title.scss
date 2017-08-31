@@ -43,6 +43,6 @@ h4 {
   font-family: $font;
   font-weight: $base-font-weight;
   font-size: rem-calc(27px);
-  line-height: 1.3;
+  line-height: $base-line-height;
   color: $black;
 }

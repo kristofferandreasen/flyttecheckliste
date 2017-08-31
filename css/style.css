@@ -91,7 +91,7 @@ h4 {
   font-family: "Nunito", sans-serif;
   font-weight: 400;
   font-size: 1.92857rem;
-  line-height: 1.3;
+  line-height: 1.58;
   color: #333; }
 
 html, body {
@@ -289,13 +289,13 @@ html, body {
   font-family: "Nunito", sans-serif;
   font-weight: 400;
   font-size: 1.57143rem;
-  line-height: 1.3;
+  line-height: 1.58;
   color: #8c8c8c; }
   @media screen and (max-width: 960px) {
     .description {
       margin: 30px auto;
       font-size: 1.42857rem;
-      line-height: 1.4;
+      line-height: 1.58;
       margin-top: 0; } }
 
 .filter-bar {
@@ -500,7 +500,7 @@ nav li {
         font-family: "Nunito", sans-serif;
         font-weight: 400;
         font-size: 1.42857rem;
-        line-height: 1.4;
+        line-height: 1.58;
         color: #8c8c8c;
         display: block;
         margin-bottom: 15px; }
@@ -510,7 +510,7 @@ nav li {
         font-family: "Nunito", sans-serif;
         font-weight: 400;
         font-size: 1.5rem;
-        line-height: 1.4;
+        line-height: 1.58;
         color: #ED7899;
         text-decoration: none;
         word-break: break-all; }
