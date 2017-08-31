@@ -44,6 +44,7 @@
     <img src="images/cross.svg" alt="Close the menu" class="close">
     <ul class="nav">
       <li class="selected"><a href="#company">Før du flytter ud</a></li>
+      <li><a href="#flytning">Flytning</a></li>
       <li><a href="#cleaning">Rengøring</a></li>
       <li><a href="#application">Efter flytning</a></li>
     </ul>
@@ -120,6 +121,7 @@
         <nav>
           <ul>
             <li class="active"><a href="#company">Før du flytter</a></li>
+            <li><a href="#flytning">Flytning</a></li>
             <li><a href="#cleaning">Rengøring</a></li>
             <li><a href="#application">Efter flytning</a></li>
           </ul>
@@ -154,6 +156,7 @@
           </ul>
         </div>
       </div>
+
       <!-- Right panel -->
       <div class="col-9">
         <h1>Din Checkliste til Flytning</h1>
@@ -161,6 +164,8 @@
           tilbage efter du fraflytter en lejlighed. Efter flere år i lejemål har jeg efterhånden prøvet at flytte et par
           gange. Jeg manglede flere gange en definitiv liste for fraflytning af lejlighed og derfor har jeg lavet den her.
           Du kan selv vurdere om alle punkterne er relevante for dig.</p>
+
+        <!-- The filter bar with the selections -->
         <div class="filter-bar">
           <h3>Company Stage</h3>
           <ul class="selected-three">
@@ -169,6 +174,8 @@
             <li class="above">Post-Series A</li>
           </ul>
         </div>
+
+        <!-- The first section -->
         <div class="scrollspy" id="company">
           <h2>Før du flytter ud</h2>
           <ul class="checklist">
@@ -391,8 +398,11 @@
             </li>
           </ul>
           </div>
-          <div class="scrollspy" id="cleaning">
-            <h2>Rengøring</h2>
+          <!-- // First section -->
+
+          <!-- Right panel -->
+          <div class="scrollspy" id="flytning">
+            <h2>Flytning</h2>
             <ul class="checklist">
               <li class="seed">
                 <div class="header">
@@ -405,7 +415,7 @@
                     </svg>
                   </div>
                   <div class="expend-bar">
-                    <p>Rengør alle vinduer</p>
+                    <p>Alle lamper nedtages</p>
                     <span class="category">Seed</span>
                   </div>
                   <div class="btn">
@@ -413,18 +423,36 @@
                   </div>
                 </div>
                 <div class="body">
-                  <p>Encrypting communications is not only about privacy, but also about your users’ safety, since it will prevent
-                    most attempts at tempering with what they receive.<br><br>Two free popular solutions are:</p>
+                  <p>Domain names should be renewed regularly. If you have bought one from a third party, you should also make
+                    sure that the authoritative configured name server is your own.<br><br>Read more:</p>
                   <ul>
-                    <li><a href="https://letsencrypt.org/" target="_blank">https://letsencrypt.org/</a></li>
-                    <li><a href="https://www.cloudflare.com/ssl/" target="_blank">https://www.cloudflare.com/ssl/</a></li>
+                    <li><a href="http://www.esecurityplanet.com/views/article.php/3928456/8-Tips-for-Protecting-Your-Domain-Names.htm"
+                        target="_blank">http://www.esecurityplanet.com/views/article.php/3928456/8-Tips-for-Protecting-Your-Domain-Names.htm</a></li>
                   </ul>
-                  <br><br>
-                  <p>You can also choose your own custom certificate (which may allow you to get a beautiful green bar if you
-                    pay for the extra “Extended Validation”):</p>
+              </li>
+              <li class="seed">
+                <div class="header">
+                  <div class="check">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26">
+                      <g fill="none" fill-rule="evenodd" stroke-width="3" transform="translate(2 2)">
+                        <path stroke="#9012FE" d="M6 11.402l2.874 2.934L16.06 7" />
+                        <circle cx="11" cy="11" r="11" />
+                      </g>
+                    </svg>
+                  </div>
+                  <div class="expend-bar">
+                    <p>Alle gardiner/persienner nedtages</p>
+                    <span class="category">Seed</span>
+                  </div>
+                  <div class="btn">
+                    <img src="images/arrow-bottom.svg" alt="" class="arrow">
+                  </div>
+                </div>
+                <div class="body">
+                  <p>In the case of a breach, the attackers may disclose any data they gather. Your customers need to be aware
+                    of what data you're storing.<br><br>Read more:</p>
                   <ul>
-                    <li><a href="https://www.digicert.com<" target="_blank">https://www.digicert.com</a></li>
-                    <li><a href="https://www.rapidssl.com" target="_blank">https://www.rapidssl.com</a></li>
+                    <li><a href="https://hbr.org/2015/05/customer-data-designing-for-transparency-and-trust" target="_blank">https://hbr.org/2015/05/customer-data-designing-for-transparency-and-trust</a></li>
                   </ul>
                 </div>
               </li>
@@ -439,7 +467,7 @@
                     </svg>
                   </div>
                   <div class="expend-bar">
-                    <p>Rens alle afløb</p>
+                    <p>Sørg for at alle pærer og lamper virker (lejemålets)</p>
                     <span class="category">Seed</span>
                   </div>
                   <div class="btn">
@@ -447,14 +475,11 @@
                   </div>
                 </div>
                 <div class="body">
-                  <p>Websites are vulnerable to many different classes of vulnerabilities, some may be prevented by the appropriate
-                    configuration on the server. Static websites may expose your users to less risks.<br><br>Check your website
-                    configuration:
-                  </p>
+                  <p>Many companies rely on Google Apps, Slack, Wordpress… These services all have defaults that should be improved
+                    to increase the security level. All of these services should be kept up to date.<br><br>Read more:</p>
                   <ul>
-                    <li><a href="https://myheaders.sqreen.io" target="_blank">https://myheaders.sqreen.io</a></li>
-                    <li><a href="https://securityheaders.io/" target="_blank">https://securityheaders.io</a></li>
-                    <li><a href="https://www.ssllabs.com/" target="_blank">https://www.ssllabs.com/</a></li>
+                    <li><a href="https://blog.trailofbits.com/2015/07/07/how-to-harden-your-google-apps/" target="_blank">https://blog.trailofbits.com/2015/07/07/how-to-harden-your-google-apps/</a></li>
+                    <li><a href="https://codex.wordpress.org/Hardening_WordPress" target="_blank">https://codex.wordpress.org/Hardening_WordPress</a></li>
                   </ul>
                 </div>
               </li>
@@ -469,7 +494,7 @@
                     </svg>
                   </div>
                   <div class="expend-bar">
-                    <p>Tjek at alle varmelegemer og radiatorer virker</p>
+                    <p>Udskift batteri til dørklokken</p>
                     <span class="category">Seed</span>
                   </div>
                   <div class="btn">
@@ -477,11 +502,14 @@
                   </div>
                 </div>
                 <div class="body">
-                  <p>Only your public APIs should be exposed to the Internet. You should isolate your networks to prevent any
-                    unauthorized accesses to your database. This will prevent attackers from connecting to it and attempting
-                    to crack the password, or exploit vulnerabilities.<br><br>Read more:</p>
+                  <p>Dette er kun aktuelt i enkelte situationer. Du behøver derfor ikke tænke på dette, hvis du blot fraflytter
+                    din lejlighed.</p>
                   <ul>
-                    <li><a href="http://docs.aws.amazon.com/AmazonVPC/latest/UserGuide/VPC_Subnets.html" target="_blank">http://docs.aws.amazon.com/AmazonVPC/latest/UserGuide/VPC_Subnets.html</a></li>
+                    <li><a href="https://ondmarc.com" target="_blank">https://ondmarc.com</a></li>
+                  </ul>
+                  <p><br>Read more:</p>
+                  <ul>
+                    <li><a href="https://dmarc.org" target="_blank">https://dmarc.org</a></li>
                   </ul>
                 </div>
               </li>
@@ -496,7 +524,7 @@
                     </svg>
                   </div>
                   <div class="expend-bar">
-                    <p>Tjek at røgalarmer virker</p>
+                    <p>Sørg for at alle sier til vandhanerne er til steder og afkalkede</p>
                     <span class="category">Seed</span>
                   </div>
                   <div class="btn">
@@ -504,64 +532,37 @@
                   </div>
                 </div>
                 <div class="body">
-                  <p>You should download all of your OS’s security updates and regularly update your machines. For servers,
-                    you can delegate it to a PaaS provider (Heroku, AWS Beanstalk, etc.).</p>
-                  <ul>
-                    <li><a href="https://appcanary.com/" target="_blank">https://appcanary.com/</a></li>
-                  </ul>
-                </div>
-              </li>
-              <li class="seed">
-                <div class="header">
-                  <div class="check">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26">
-                      <g fill="none" fill-rule="evenodd" stroke-width="3" transform="translate(2 2)">
-                        <path stroke="#9012FE" d="M6 11.402l2.874 2.934L16.06 7" />
-                        <circle cx="11" cy="11" r="11" />
-                      </g>
-                    </svg>
-                  </div>
-                  <div class="expend-bar">
-                    <p>Gør alle bageplader helt rene</p>
-                    <span class="category">Seed</span>
-                  </div>
-                  <div class="btn">
-                    <img src="images/arrow-bottom.svg" alt="" class="arrow">
-                  </div>
-                </div>
-                <div class="body">
-                  <p>Bageplader er ofte meget dyre at få erstattet eller rengjort. Dette kan være en af de mest tidskrævende
-                    opgaver, men det sikrer, at du ikke skal betale for dem. De skal gerne se helt ud som nye.</p>
-                  <ul>
-                    <li><a href="https://aws.amazon.com/getting-started/backup-files-to-amazon-s3/" target="_blank">https://aws.amazon.com/getting-started/backup-files-to-amazon-s3/</a></li>
-                  </ul>
-                </div>
-              </li>
-              <li class="seriesa">
-                <div class="header">
-                  <div class="check">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26">
-                      <g fill="none" fill-rule="evenodd" stroke-width="3" transform="translate(2 2)">
-                        <path stroke="#9012FE" d="M6 11.402l2.874 2.934L16.06 7" />
-                        <circle cx="11" cy="11" r="11" />
-                      </g>
-                    </svg>
-                  </div>
-                  <div class="expend-bar">
-                    <p>Gør ovnen helt ren</p>
-                    <span class="category">Series A</span>
-                  </div>
-                  <div class="btn">
-                    <img src="images/arrow-bottom.svg" alt="" class="arrow">
-                  </div>
-                </div>
-                <div class="body">
-                  <p>Ovnen skal være helt ren, da der ellers skal betales for at den bliver helt ren. Her kan du spare en del
-                    penge af dit depositum.
+                  <p>Sharing WiFi networks with guests or neighbors may give them the opportunity to gather information on your
+                    network, and allow them to access resources protected by source IP. Use an isolated and dedicated guest
+                    WiFi network. Set up a calendar reminder to change the password every two months, since this password
+                    is shared.
                   </p>
+                </div>
+              </li>
+              <li class="seriesa">
+                <div class="header">
+                  <div class="check">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26">
+                      <g fill="none" fill-rule="evenodd" stroke-width="3" transform="translate(2 2)">
+                        <path stroke="#9012FE" d="M6 11.402l2.874 2.934L16.06 7" />
+                        <circle cx="11" cy="11" r="11" />
+                      </g>
+                    </svg>
+                  </div>
+                  <div class="expend-bar">
+                    <p>Sørg for at alle propper til vaskene er til stede og virker</p>
+                    <span class="category">Series A</span>
+                  </div>
+                  <div class="btn">
+                    <img src="images/arrow-bottom.svg" alt="" class="arrow">
+                  </div>
+                </div>
+                <div class="body">
+                  <p>Non-tech employees are less used to technical trickery and can be deceived more easily than others, opening
+                    the door to ransomware or confidentiality issues. They should be trained and empowered to be distrustful
+                    and to preserve the company’s assets.<br><br>Read more:</p>
                   <ul>
-                    <li><a href="https://aws.amazon.com/fr/blogs/security/securely-connect-to-linux-instances-running-in-a-private-amazon-vpc/"
-                        target="_blank">https://aws.amazon.com/fr/blogs/security/securely-connect-to-linux-instances-running-in-a-private-amazon-vpc/</a></li>
+                    <li><a href="http://www.zdnet.com/pictures/hacked-the-six-most-common-ways-non-tech-people-fall-victim" target="_blank">http://www.zdnet.com/pictures/hacked-the-six-most-common-ways-non-tech-people-fall-victim</a></li>
                   </ul>
                 </div>
               </li>
@@ -576,7 +577,7 @@
                     </svg>
                   </div>
                   <div class="expend-bar">
-                    <p>Støvsug og vask alle lister</p>
+                    <p>Sørg for at fjerne alle uoriginale viskestykke- og håndklædeholdere</p>
                     <span class="category">Series A</span>
                   </div>
                   <div class="btn">
@@ -584,86 +585,12 @@
                   </div>
                 </div>
                 <div class="body">
-                  <p>Der er typisk altid lister i lejligheder og disse har det med at samle støv. Disse skal gerne støvsuges
-                    for at fjerne støv og herefter køres over med en klud for at fjerne det sidste skidt.
-                  </p>
+                  <p>This is a page on your corporate website describing how you plan to respond to external bug reports. You
+                    should advertise that you support <a href="https://en.wikipedia.org/wiki/Responsible_disclosure" target="_blank">responsible disclosure</a>.
+                    Keep in mind that most of the reports that you receive probably won't be relevant.<br><br>Great examples:</p>
                   <ul>
-                    <li><a href="https://en.wikipedia.org/wiki/Network_Time_Protocol" target="_blank">https://en.wikipedia.org/wiki/Network_Time_Protocol</a></li>
-                    <li><a href="https://www.elastic.co/products" target="_blank">https://www.elastic.co/products</a></li>
-                  </ul>
-                </div>
-              </li>
-              <li class="seriesa">
-                <div class="header">
-                  <div class="check">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26">
-                      <g fill="none" fill-rule="evenodd" stroke-width="3" transform="translate(2 2)">
-                        <path stroke="#9012FE" d="M6 11.402l2.874 2.934L16.06 7" />
-                        <circle cx="11" cy="11" r="11" />
-                      </g>
-                    </svg>
-                  </div>
-                  <div class="expend-bar">
-                    <p>Rengør alle stikkontakter</p>
-                    <span class="category">Series A</span>
-                  </div>
-                  <div class="btn">
-                    <img src="images/arrow-bottom.svg" alt="" class="arrow">
-                  </div>
-                </div>
-                <div class="body">
-                  <p>Stikkontakter er nogle gange nævnt på udlejers liste over ting, som skal være rene. Du gør derfor dig selv
-                    en tjeneste, hvis du først støvsuger og derefter vasker disse i hele lejligheden.</p>
-                </div>
-              </li>
-              <li class="seriesa">
-                <div class="header">
-                  <div class="check">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26">
-                      <g fill="none" fill-rule="evenodd" stroke-width="3" transform="translate(2 2)">
-                        <path stroke="#9012FE" d="M6 11.402l2.874 2.934L16.06 7" />
-                        <circle cx="11" cy="11" r="11" />
-                      </g>
-                    </svg>
-                  </div>
-                  <div class="expend-bar">
-                    <p>Støvsug og vask gulv</p>
-                    <span class="category">Series A</span>
-                  </div>
-                  <div class="btn">
-                    <img src="images/arrow-bottom.svg" alt="" class="arrow">
-                  </div>
-                </div>
-                <div class="body">
-                  <p>Denne giver lidt sig selv, men tager alligevel en del tid ved fraflyning.</p>
-                </div>
-              </li>
-              <li class="seriesa">
-                <div class="header">
-                  <div class="check">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26">
-                      <g fill="none" fill-rule="evenodd" stroke-width="3" transform="translate(2 2)">
-                        <path stroke="#9012FE" d="M6 11.402l2.874 2.934L16.06 7" />
-                        <circle cx="11" cy="11" r="11" />
-                      </g>
-                    </svg>
-                  </div>
-                  <div class="expend-bar">
-                    <p>Rens alle radiatorer</p>
-                    <span class="category">Series A</span>
-                  </div>
-                  <div class="btn">
-                    <img src="images/arrow-bottom.svg" alt="" class="arrow">
-                  </div>
-                </div>
-                <div class="body">
-                  <p>Denne kan være lidt svær, da nogle radiatorer har monteret en lille rist ovenpå. Denne skal i så fald afmonteres
-                    og radiatoren skal så renses og vaskes. Du skal også gerne få blæst luft igennem den for at få alt støv
-                    ud.
-                  </p>
-                  <ul>
-                    <li><a href="https://newrelic.com/server-monitoring" target="_blank">https://newrelic.com/server-monitoring</a></li>
-                    <li><a href="https://www.sysdig.com/" target="_blank">https://www.sysdig.com/</a></li>
+                    <li><a href="https://www.airbnb.com/security" target="_blank">https://www.airbnb.com/security</a></li>
+                    <li><a href="https://www.apple.com/support/security/" target="_blank">https://www.apple.com/support/security/</a></li>
                   </ul>
                 </div>
               </li>
@@ -678,7 +605,7 @@
                     </svg>
                   </div>
                   <div class="expend-bar">
-                    <p>Rengør Emhætten</p>
+                    <p>Alle dørhåndtag tjekkes og evt. løse fastgøres</p>
                     <span class="category">Post-Series A</span>
                   </div>
                   <div class="btn">
@@ -686,98 +613,11 @@
                   </div>
                 </div>
                 <div class="body">
-                  <p>This allows you to quickly spawn new infrastructure and populate it with data from your backups. This is
-                    the perfect use case for disaster recovery.<br><br>Read More:</p>
+                  <p>This is a short document stating the security requirements in your company and defining who is responsible
+                    and who is concerned with all aspects of security.<br><br>Read More:</p>
                   <ul>
-                    <li><a href="https://aws.amazon.com/cloudformation/" target="_blank">https://aws.amazon.com/cloudformation/</a></li>
-                    <li><a href="https://cloud.google.com/deployment-manager/" target="_blank">https://cloud.google.com/deployment-manager/</a></li>
-                  </ul>
-                </div>
-              </li>
-            </ul>
-          </div>
-          <div class="scrollspy" id="application">
-            <h2>Efter flytning</h2>
-            <ul class="checklist">
-              <li class="seed">
-                <div class="header">
-                  <div class="check">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26">
-                      <g fill="none" fill-rule="evenodd" stroke-width="3" transform="translate(2 2)">
-                        <path stroke="#9012FE" d="M6 11.402l2.874 2.934L16.06 7" />
-                        <circle cx="11" cy="11" r="11" />
-                      </g>
-                    </svg>
-                  </div>
-                  <div class="expend-bar">
-                    <p>Run it unprivileged</p>
-                    <span class="category">Seed</span>
-                  </div>
-                  <div class="btn">
-                    <img src="images/arrow-bottom.svg" alt="" class="arrow">
-                  </div>
-                </div>
-                <div class="body">
-                  <p>In case an attacker successfully attacks your application, having it running as a user with restricted
-                    privileges will make it harder for the attacker to take over the host and/or to bounce to other services.
-                    Privileged users are root on Unix systems, and Administrator or System on Windows systems.</p>
-                </div>
-              </li>
-              <li class="seed">
-                <div class="header">
-                  <div class="check">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26">
-                      <g fill="none" fill-rule="evenodd" stroke-width="3" transform="translate(2 2)">
-                        <path stroke="#9012FE" d="M6 11.402l2.874 2.934L16.06 7" />
-                        <circle cx="11" cy="11" r="11" />
-                      </g>
-                    </svg>
-                  </div>
-                  <div class="expend-bar">
-                    <p>Monitor your dependencies</p>
-                    <span class="category">Seed</span>
-                  </div>
-                  <div class="btn">
-                    <img src="images/arrow-bottom.svg" alt="" class="arrow">
-                  </div>
-                </div>
-                <div class="body">
-                  <p>Applications are built using dozens of third party libraries. A single flaw in any of these libraries may
-                    put your entire application at risk. Some tools allow you to monitor your dependencies against vulnerabilities:</p>
-                  <ul>
-                    <li><a href="https://www.sqreen.io/" target="_blank">https://www.sqreen.io/</a></li>
-                    <li><a href="https://appcanary.com/" target="_blank">https://appcanary.com/</a></li>
-                    <li><a href="https://snyk.io/" target="_blank">https://snyk.io/</a></li>
-                    <li><a href="https://gemnasium.com/" target="_blank">https://gemnasium.com/</a></li>
-                  </ul>
-                </div>
-              </li>
-              <li class="seriesa">
-                <div class="header">
-                  <div class="check">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26">
-                      <g fill="none" fill-rule="evenodd" stroke-width="3" transform="translate(2 2)">
-                        <path stroke="#9012FE" d="M6 11.402l2.874 2.934L16.06 7" />
-                        <circle cx="11" cy="11" r="11" />
-                      </g>
-                    </svg>
-                  </div>
-                  <div class="expend-bar">
-                    <p>Use a real-time protection service</p>
-                    <span class="category">Series A</span>
-                  </div>
-                  <div class="btn">
-                    <img src="images/arrow-bottom.svg" alt="" class="arrow">
-                  </div>
-                </div>
-                <div class="body">
-                  <p>These tools protect web applications from attacks at runtime. The protection logic is inserted into applications.
-                    They protect against all major vulnerabilities (SQL injections, XSS attacks, account takeovers, code
-                    injections, etc.) without false positives.</p>
-                  <ul>
-                    <li><a href="https://www.sqreen.io/?utm_medium=social-owned&utm_source=securitychecklist&utm_campaign=The%20SaaS%20CTO%20Security%20Checklist"
-                        target="_blank">https://www.sqreen.io/</a></li>
-                    <li><a href="http://www8.hp.com/us/en/software-solutions/appdefender-application-self-protection/" target="_blank">http://www8.hp.com/us/en/software-solutions/appdefender-application-self-protection/</a></li>
+                    <li><a href="https://www.sans.org/reading-room/whitepapers/policyissues/creating-information-systems-security-policy-534"
+                        target="_blank">https://www.sans.org/reading-room/whitepapers/policyissues/creating-information-systems-security-policy-534</a></li>
                   </ul>
                 </div>
               </li>
@@ -792,7 +632,7 @@
                     </svg>
                   </div>
                   <div class="expend-bar">
-                    <p>Hire an external penetration testing team</p>
+                    <p>Saml alle nøgler sammen</p>
                     <span class="category">Post-Series A</span>
                   </div>
                   <div class="btn">
@@ -800,65 +640,488 @@
                   </div>
                 </div>
                 <div class="body">
-                  <p>These take an external and naive point of view of your infrastructure and products. Pentesters will take
-                    nothing for granted and will check even the most basic assumptions, as well as all of your infrastructure.
-                    You can also ask them to start with a full, blind discovery of your infrastructure, which can help you
-                    remember about old assets.<br><br>Read More:</p>
+                  <p>This is a short document stating the security requirements in your company and defining who is responsible
+                    and who is concerned with all aspects of security.<br><br>Read More:</p>
                   <ul>
-                    <li><a href="http://www.zdnet.com/article/10-things-you-need-to-know-before-hiring-penetration-testers/"
-                        target="_blank">http://www.zdnet.com/article/10-things-you-need-to-know-before-hiring-penetration-testers/</a></li>
+                    <li><a href="https://www.sans.org/reading-room/whitepapers/policyissues/creating-information-systems-security-policy-534"
+                        target="_blank">https://www.sans.org/reading-room/whitepapers/policyissues/creating-information-systems-security-policy-534</a></li>
                   </ul>
                 </div>
               </li>
             </ul>
-          </div>
-          <div class="newsletter">
-            <h4>Stay up to date with major changes in the list</h4>
-            <div class="subtitle">Get notified about major updates to the list:</div>
-            <div id="mc_embed_signup">
-              <form action="//sqreen.us13.list-manage.com/subscribe/post?u=4c3491573cfb8d053d6b76c6a&amp;id=9db3111ac1" method="post" id="mc-embedded-subscribe-form"
-                name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
-                <div id="mc_embed_signup_scroll">
-                  <div class="mc-field-group">
-                    <label for="mce-EMAIL">Email Address </label>
-                    <input type="email" placeholder="your.email@address.com" value="" name="EMAIL" class="required email" id="mce-EMAIL">
-                  </div>
-                  <div id="mce-responses" class="clear">
-                    <div class="response" id="mce-error-response" style="display:none"></div>
-                    <div class="response" id="mce-success-response" style="display:none"></div>
-                  </div>
-                  <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_4c3491573cfb8d053d6b76c6a_9db3111ac1" tabindex="-1" value=""></div>
-                  <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
-                </div>
-              </form>
             </div>
-          </div>
-          <footer>
-            <span>A project by:</span>
-            <div class="gradient">
-              <a href="https://www.sqreen.io/?utm_medium=social-owned&utm_source=securitychecklist&utm_campaign=The%20SaaS%20CTO%20Security%20Checklist"
-                target="_blank" rel="noreferrer noopener" class="logo-ctn">
+
+
+            <div class="scrollspy" id="cleaning">
+              <h2>Rengøring</h2>
+              <ul class="checklist">
+                <li class="seed">
+                  <div class="header">
+                    <div class="check">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26">
+                        <g fill="none" fill-rule="evenodd" stroke-width="3" transform="translate(2 2)">
+                          <path stroke="#9012FE" d="M6 11.402l2.874 2.934L16.06 7" />
+                          <circle cx="11" cy="11" r="11" />
+                        </g>
+                      </svg>
+                    </div>
+                    <div class="expend-bar">
+                      <p>Rengør alle vinduer</p>
+                      <span class="category">Seed</span>
+                    </div>
+                    <div class="btn">
+                      <img src="images/arrow-bottom.svg" alt="" class="arrow">
+                    </div>
+                  </div>
+                  <div class="body">
+                    <p>Encrypting communications is not only about privacy, but also about your users’ safety, since it will
+                      prevent most attempts at tempering with what they receive.<br><br>Two free popular solutions are:</p>
+                    <ul>
+                      <li><a href="https://letsencrypt.org/" target="_blank">https://letsencrypt.org/</a></li>
+                      <li><a href="https://www.cloudflare.com/ssl/" target="_blank">https://www.cloudflare.com/ssl/</a></li>
+                    </ul>
+                    <br><br>
+                    <p>You can also choose your own custom certificate (which may allow you to get a beautiful green bar if
+                      you pay for the extra “Extended Validation”):</p>
+                    <ul>
+                      <li><a href="https://www.digicert.com<" target="_blank">https://www.digicert.com</a></li>
+                      <li><a href="https://www.rapidssl.com" target="_blank">https://www.rapidssl.com</a></li>
+                    </ul>
+                  </div>
+                </li>
+                <li class="seed">
+                  <div class="header">
+                    <div class="check">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26">
+                        <g fill="none" fill-rule="evenodd" stroke-width="3" transform="translate(2 2)">
+                          <path stroke="#9012FE" d="M6 11.402l2.874 2.934L16.06 7" />
+                          <circle cx="11" cy="11" r="11" />
+                        </g>
+                      </svg>
+                    </div>
+                    <div class="expend-bar">
+                      <p>Rens alle afløb</p>
+                      <span class="category">Seed</span>
+                    </div>
+                    <div class="btn">
+                      <img src="images/arrow-bottom.svg" alt="" class="arrow">
+                    </div>
+                  </div>
+                  <div class="body">
+                    <p>Websites are vulnerable to many different classes of vulnerabilities, some may be prevented by the appropriate
+                      configuration on the server. Static websites may expose your users to less risks.<br><br>Check your
+                      website configuration:
+                    </p>
+                    <ul>
+                      <li><a href="https://myheaders.sqreen.io" target="_blank">https://myheaders.sqreen.io</a></li>
+                      <li><a href="https://securityheaders.io/" target="_blank">https://securityheaders.io</a></li>
+                      <li><a href="https://www.ssllabs.com/" target="_blank">https://www.ssllabs.com/</a></li>
+                    </ul>
+                  </div>
+                </li>
+                <li class="seed">
+                  <div class="header">
+                    <div class="check">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26">
+                        <g fill="none" fill-rule="evenodd" stroke-width="3" transform="translate(2 2)">
+                          <path stroke="#9012FE" d="M6 11.402l2.874 2.934L16.06 7" />
+                          <circle cx="11" cy="11" r="11" />
+                        </g>
+                      </svg>
+                    </div>
+                    <div class="expend-bar">
+                      <p>Tjek at alle varmelegemer og radiatorer virker</p>
+                      <span class="category">Seed</span>
+                    </div>
+                    <div class="btn">
+                      <img src="images/arrow-bottom.svg" alt="" class="arrow">
+                    </div>
+                  </div>
+                  <div class="body">
+                    <p>Only your public APIs should be exposed to the Internet. You should isolate your networks to prevent
+                      any unauthorized accesses to your database. This will prevent attackers from connecting to it and attempting
+                      to crack the password, or exploit vulnerabilities.<br><br>Read more:</p>
+                    <ul>
+                      <li><a href="http://docs.aws.amazon.com/AmazonVPC/latest/UserGuide/VPC_Subnets.html" target="_blank">http://docs.aws.amazon.com/AmazonVPC/latest/UserGuide/VPC_Subnets.html</a></li>
+                    </ul>
+                  </div>
+                </li>
+                <li class="seed">
+                  <div class="header">
+                    <div class="check">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26">
+                        <g fill="none" fill-rule="evenodd" stroke-width="3" transform="translate(2 2)">
+                          <path stroke="#9012FE" d="M6 11.402l2.874 2.934L16.06 7" />
+                          <circle cx="11" cy="11" r="11" />
+                        </g>
+                      </svg>
+                    </div>
+                    <div class="expend-bar">
+                      <p>Tjek at røgalarmer virker</p>
+                      <span class="category">Seed</span>
+                    </div>
+                    <div class="btn">
+                      <img src="images/arrow-bottom.svg" alt="" class="arrow">
+                    </div>
+                  </div>
+                  <div class="body">
+                    <p>You should download all of your OS’s security updates and regularly update your machines. For servers,
+                      you can delegate it to a PaaS provider (Heroku, AWS Beanstalk, etc.).</p>
+                    <ul>
+                      <li><a href="https://appcanary.com/" target="_blank">https://appcanary.com/</a></li>
+                    </ul>
+                  </div>
+                </li>
+                <li class="seed">
+                  <div class="header">
+                    <div class="check">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26">
+                        <g fill="none" fill-rule="evenodd" stroke-width="3" transform="translate(2 2)">
+                          <path stroke="#9012FE" d="M6 11.402l2.874 2.934L16.06 7" />
+                          <circle cx="11" cy="11" r="11" />
+                        </g>
+                      </svg>
+                    </div>
+                    <div class="expend-bar">
+                      <p>Gør alle bageplader helt rene</p>
+                      <span class="category">Seed</span>
+                    </div>
+                    <div class="btn">
+                      <img src="images/arrow-bottom.svg" alt="" class="arrow">
+                    </div>
+                  </div>
+                  <div class="body">
+                    <p>Bageplader er ofte meget dyre at få erstattet eller rengjort. Dette kan være en af de mest tidskrævende
+                      opgaver, men det sikrer, at du ikke skal betale for dem. De skal gerne se helt ud som nye.</p>
+                    <ul>
+                      <li><a href="https://aws.amazon.com/getting-started/backup-files-to-amazon-s3/" target="_blank">https://aws.amazon.com/getting-started/backup-files-to-amazon-s3/</a></li>
+                    </ul>
+                  </div>
+                </li>
+                <li class="seriesa">
+                  <div class="header">
+                    <div class="check">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26">
+                        <g fill="none" fill-rule="evenodd" stroke-width="3" transform="translate(2 2)">
+                          <path stroke="#9012FE" d="M6 11.402l2.874 2.934L16.06 7" />
+                          <circle cx="11" cy="11" r="11" />
+                        </g>
+                      </svg>
+                    </div>
+                    <div class="expend-bar">
+                      <p>Gør ovnen helt ren</p>
+                      <span class="category">Series A</span>
+                    </div>
+                    <div class="btn">
+                      <img src="images/arrow-bottom.svg" alt="" class="arrow">
+                    </div>
+                  </div>
+                  <div class="body">
+                    <p>Ovnen skal være helt ren, da der ellers skal betales for at den bliver helt ren. Her kan du spare en
+                      del penge af dit depositum.
+                    </p>
+                    <ul>
+                      <li><a href="https://aws.amazon.com/fr/blogs/security/securely-connect-to-linux-instances-running-in-a-private-amazon-vpc/"
+                          target="_blank">https://aws.amazon.com/fr/blogs/security/securely-connect-to-linux-instances-running-in-a-private-amazon-vpc/</a></li>
+                    </ul>
+                  </div>
+                </li>
+                <li class="seriesa">
+                  <div class="header">
+                    <div class="check">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26">
+                        <g fill="none" fill-rule="evenodd" stroke-width="3" transform="translate(2 2)">
+                          <path stroke="#9012FE" d="M6 11.402l2.874 2.934L16.06 7" />
+                          <circle cx="11" cy="11" r="11" />
+                        </g>
+                      </svg>
+                    </div>
+                    <div class="expend-bar">
+                      <p>Støvsug og vask alle lister</p>
+                      <span class="category">Series A</span>
+                    </div>
+                    <div class="btn">
+                      <img src="images/arrow-bottom.svg" alt="" class="arrow">
+                    </div>
+                  </div>
+                  <div class="body">
+                    <p>Der er typisk altid lister i lejligheder og disse har det med at samle støv. Disse skal gerne støvsuges
+                      for at fjerne støv og herefter køres over med en klud for at fjerne det sidste skidt.
+                    </p>
+                    <ul>
+                      <li><a href="https://en.wikipedia.org/wiki/Network_Time_Protocol" target="_blank">https://en.wikipedia.org/wiki/Network_Time_Protocol</a></li>
+                      <li><a href="https://www.elastic.co/products" target="_blank">https://www.elastic.co/products</a></li>
+                    </ul>
+                  </div>
+                </li>
+                <li class="seriesa">
+                  <div class="header">
+                    <div class="check">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26">
+                        <g fill="none" fill-rule="evenodd" stroke-width="3" transform="translate(2 2)">
+                          <path stroke="#9012FE" d="M6 11.402l2.874 2.934L16.06 7" />
+                          <circle cx="11" cy="11" r="11" />
+                        </g>
+                      </svg>
+                    </div>
+                    <div class="expend-bar">
+                      <p>Rengør alle stikkontakter</p>
+                      <span class="category">Series A</span>
+                    </div>
+                    <div class="btn">
+                      <img src="images/arrow-bottom.svg" alt="" class="arrow">
+                    </div>
+                  </div>
+                  <div class="body">
+                    <p>Stikkontakter er nogle gange nævnt på udlejers liste over ting, som skal være rene. Du gør derfor dig
+                      selv en tjeneste, hvis du først støvsuger og derefter vasker disse i hele lejligheden.</p>
+                  </div>
+                </li>
+                <li class="seriesa">
+                  <div class="header">
+                    <div class="check">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26">
+                        <g fill="none" fill-rule="evenodd" stroke-width="3" transform="translate(2 2)">
+                          <path stroke="#9012FE" d="M6 11.402l2.874 2.934L16.06 7" />
+                          <circle cx="11" cy="11" r="11" />
+                        </g>
+                      </svg>
+                    </div>
+                    <div class="expend-bar">
+                      <p>Støvsug og vask gulv</p>
+                      <span class="category">Series A</span>
+                    </div>
+                    <div class="btn">
+                      <img src="images/arrow-bottom.svg" alt="" class="arrow">
+                    </div>
+                  </div>
+                  <div class="body">
+                    <p>Denne giver lidt sig selv, men tager alligevel en del tid ved fraflyning.</p>
+                  </div>
+                </li>
+                <li class="seriesa">
+                  <div class="header">
+                    <div class="check">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26">
+                        <g fill="none" fill-rule="evenodd" stroke-width="3" transform="translate(2 2)">
+                          <path stroke="#9012FE" d="M6 11.402l2.874 2.934L16.06 7" />
+                          <circle cx="11" cy="11" r="11" />
+                        </g>
+                      </svg>
+                    </div>
+                    <div class="expend-bar">
+                      <p>Rens alle radiatorer</p>
+                      <span class="category">Series A</span>
+                    </div>
+                    <div class="btn">
+                      <img src="images/arrow-bottom.svg" alt="" class="arrow">
+                    </div>
+                  </div>
+                  <div class="body">
+                    <p>Denne kan være lidt svær, da nogle radiatorer har monteret en lille rist ovenpå. Denne skal i så fald
+                      afmonteres og radiatoren skal så renses og vaskes. Du skal også gerne få blæst luft igennem den for
+                      at få alt støv ud.
+                    </p>
+                    <ul>
+                      <li><a href="https://newrelic.com/server-monitoring" target="_blank">https://newrelic.com/server-monitoring</a></li>
+                      <li><a href="https://www.sysdig.com/" target="_blank">https://www.sysdig.com/</a></li>
+                    </ul>
+                  </div>
+                </li>
+                <li class="above">
+                  <div class="header">
+                    <div class="check">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26">
+                        <g fill="none" fill-rule="evenodd" stroke-width="3" transform="translate(2 2)">
+                          <path stroke="#9012FE" d="M6 11.402l2.874 2.934L16.06 7" />
+                          <circle cx="11" cy="11" r="11" />
+                        </g>
+                      </svg>
+                    </div>
+                    <div class="expend-bar">
+                      <p>Rengør Emhætten</p>
+                      <span class="category">Post-Series A</span>
+                    </div>
+                    <div class="btn">
+                      <img src="images/arrow-bottom.svg" alt="" class="arrow">
+                    </div>
+                  </div>
+                  <div class="body">
+                    <p>This allows you to quickly spawn new infrastructure and populate it with data from your backups. This
+                      is the perfect use case for disaster recovery.<br><br>Read More:</p>
+                    <ul>
+                      <li><a href="https://aws.amazon.com/cloudformation/" target="_blank">https://aws.amazon.com/cloudformation/</a></li>
+                      <li><a href="https://cloud.google.com/deployment-manager/" target="_blank">https://cloud.google.com/deployment-manager/</a></li>
+                    </ul>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="scrollspy" id="application">
+              <h2>Efter flytning</h2>
+              <ul class="checklist">
+                <li class="seed">
+                  <div class="header">
+                    <div class="check">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26">
+                        <g fill="none" fill-rule="evenodd" stroke-width="3" transform="translate(2 2)">
+                          <path stroke="#9012FE" d="M6 11.402l2.874 2.934L16.06 7" />
+                          <circle cx="11" cy="11" r="11" />
+                        </g>
+                      </svg>
+                    </div>
+                    <div class="expend-bar">
+                      <p>Run it unprivileged</p>
+                      <span class="category">Seed</span>
+                    </div>
+                    <div class="btn">
+                      <img src="images/arrow-bottom.svg" alt="" class="arrow">
+                    </div>
+                  </div>
+                  <div class="body">
+                    <p>In case an attacker successfully attacks your application, having it running as a user with restricted
+                      privileges will make it harder for the attacker to take over the host and/or to bounce to other services.
+                      Privileged users are root on Unix systems, and Administrator or System on Windows systems.</p>
+                  </div>
+                </li>
+                <li class="seed">
+                  <div class="header">
+                    <div class="check">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26">
+                        <g fill="none" fill-rule="evenodd" stroke-width="3" transform="translate(2 2)">
+                          <path stroke="#9012FE" d="M6 11.402l2.874 2.934L16.06 7" />
+                          <circle cx="11" cy="11" r="11" />
+                        </g>
+                      </svg>
+                    </div>
+                    <div class="expend-bar">
+                      <p>Monitor your dependencies</p>
+                      <span class="category">Seed</span>
+                    </div>
+                    <div class="btn">
+                      <img src="images/arrow-bottom.svg" alt="" class="arrow">
+                    </div>
+                  </div>
+                  <div class="body">
+                    <p>Applications are built using dozens of third party libraries. A single flaw in any of these libraries
+                      may put your entire application at risk. Some tools allow you to monitor your dependencies against
+                      vulnerabilities:
+                    </p>
+                    <ul>
+                      <li><a href="https://www.sqreen.io/" target="_blank">https://www.sqreen.io/</a></li>
+                      <li><a href="https://appcanary.com/" target="_blank">https://appcanary.com/</a></li>
+                      <li><a href="https://snyk.io/" target="_blank">https://snyk.io/</a></li>
+                      <li><a href="https://gemnasium.com/" target="_blank">https://gemnasium.com/</a></li>
+                    </ul>
+                  </div>
+                </li>
+                <li class="seriesa">
+                  <div class="header">
+                    <div class="check">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26">
+                        <g fill="none" fill-rule="evenodd" stroke-width="3" transform="translate(2 2)">
+                          <path stroke="#9012FE" d="M6 11.402l2.874 2.934L16.06 7" />
+                          <circle cx="11" cy="11" r="11" />
+                        </g>
+                      </svg>
+                    </div>
+                    <div class="expend-bar">
+                      <p>Use a real-time protection service</p>
+                      <span class="category">Series A</span>
+                    </div>
+                    <div class="btn">
+                      <img src="images/arrow-bottom.svg" alt="" class="arrow">
+                    </div>
+                  </div>
+                  <div class="body">
+                    <p>These tools protect web applications from attacks at runtime. The protection logic is inserted into applications.
+                      They protect against all major vulnerabilities (SQL injections, XSS attacks, account takeovers, code
+                      injections, etc.) without false positives.</p>
+                    <ul>
+                      <li><a href="https://www.sqreen.io/?utm_medium=social-owned&utm_source=securitychecklist&utm_campaign=The%20SaaS%20CTO%20Security%20Checklist"
+                          target="_blank">https://www.sqreen.io/</a></li>
+                      <li><a href="http://www8.hp.com/us/en/software-solutions/appdefender-application-self-protection/" target="_blank">http://www8.hp.com/us/en/software-solutions/appdefender-application-self-protection/</a></li>
+                    </ul>
+                  </div>
+                </li>
+                <li class="above">
+                  <div class="header">
+                    <div class="check">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26">
+                        <g fill="none" fill-rule="evenodd" stroke-width="3" transform="translate(2 2)">
+                          <path stroke="#9012FE" d="M6 11.402l2.874 2.934L16.06 7" />
+                          <circle cx="11" cy="11" r="11" />
+                        </g>
+                      </svg>
+                    </div>
+                    <div class="expend-bar">
+                      <p>Hire an external penetration testing team</p>
+                      <span class="category">Post-Series A</span>
+                    </div>
+                    <div class="btn">
+                      <img src="images/arrow-bottom.svg" alt="" class="arrow">
+                    </div>
+                  </div>
+                  <div class="body">
+                    <p>These take an external and naive point of view of your infrastructure and products. Pentesters will take
+                      nothing for granted and will check even the most basic assumptions, as well as all of your infrastructure.
+                      You can also ask them to start with a full, blind discovery of your infrastructure, which can help
+                      you remember about old assets.<br><br>Read More:</p>
+                    <ul>
+                      <li><a href="http://www.zdnet.com/article/10-things-you-need-to-know-before-hiring-penetration-testers/"
+                          target="_blank">http://www.zdnet.com/article/10-things-you-need-to-know-before-hiring-penetration-testers/</a></li>
+                    </ul>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="newsletter">
+              <h4>Stay up to date with major changes in the list</h4>
+              <div class="subtitle">Get notified about major updates to the list:</div>
+              <div id="mc_embed_signup">
+                <form action="//sqreen.us13.list-manage.com/subscribe/post?u=4c3491573cfb8d053d6b76c6a&amp;id=9db3111ac1" method="post" id="mc-embedded-subscribe-form"
+                  name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+                  <div id="mc_embed_signup_scroll">
+                    <div class="mc-field-group">
+                      <label for="mce-EMAIL">Email Address </label>
+                      <input type="email" placeholder="your.email@address.com" value="" name="EMAIL" class="required email" id="mce-EMAIL">
+                    </div>
+                    <div id="mce-responses" class="clear">
+                      <div class="response" id="mce-error-response" style="display:none"></div>
+                      <div class="response" id="mce-success-response" style="display:none"></div>
+                    </div>
+                    <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_4c3491573cfb8d053d6b76c6a_9db3111ac1" tabindex="-1" value=""></div>
+                    <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
+                  </div>
+                </form>
+              </div>
+            </div>
+            <footer>
+              <span>A project by:</span>
+              <div class="gradient">
+                <a href="https://www.sqreen.io/?utm_medium=social-owned&utm_source=securitychecklist&utm_campaign=The%20SaaS%20CTO%20Security%20Checklist"
+                  target="_blank" rel="noreferrer noopener" class="logo-ctn">
                 <img src="images/sqreen-logo.svg" alt="Visit Sqreen.io">
               </a>
-              <h5>The easiest way to protect your app and users</h5>
-              <div class="subtitle">Start your 14-day free trial and get protected in less than a minute!</div>
-              <a href="https://www.sqreen.io/?utm_medium=social-owned&utm_source=securitychecklist&utm_campaign=The%20SaaS%20CTO%20Security%20Checklist"
-                target="_blank" rel="noreferrer noopener">
+                <h5>The easiest way to protect your app and users</h5>
+                <div class="subtitle">Start your 14-day free trial and get protected in less than a minute!</div>
+                <a href="https://www.sqreen.io/?utm_medium=social-owned&utm_source=securitychecklist&utm_campaign=The%20SaaS%20CTO%20Security%20Checklist"
+                  target="_blank" rel="noreferrer noopener">
                 <span>www.sqreen.io</span>
               </a>
-              <a href="https://twitter.com/SqreenIO" target="_blank" rel="noreferrer noopener">
+                <a href="https://twitter.com/SqreenIO" target="_blank" rel="noreferrer noopener">
                 <img src="images/icon-twitter-white.svg" alt="Visit our Twitter">
                 <span>@sqreenIO</span>
               </a>
-            </div>
-          </footer>
+              </div>
+            </footer>
+          </div>
         </div>
       </div>
-    </div>
 
-    <!-- Scripts -->
-    <script type="application/ld+json">
-      {
+      <!-- Scripts -->
+      <script type="application/ld+json">
+        {
       "@context" : "http://schema.org",
       "@type" : "Product",
       "name" : "Flytte Checkliste",
@@ -875,10 +1138,10 @@
         "price" : "Free"
       }
     }
-    </script>
-    <script type="text/javascript" src="js/vendors/jquery-3.1.1.min.js"></script>
-    <script type="text/javascript" src="js/vendors/isotope.pkgd.min.js"></script>
-    <script type="text/javascript" src="js/main.js"></script>
+      </script>
+      <script type="text/javascript" src="js/vendors/jquery-3.1.1.min.js"></script>
+      <script type="text/javascript" src="js/vendors/isotope.pkgd.min.js"></script>
+      <script type="text/javascript" src="js/main.js"></script>
 </body>
 
 </html>
