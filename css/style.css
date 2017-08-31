@@ -51,29 +51,29 @@ table {
 
 @font-face {
   font-family: 'BG light';
-  src: url("fonts/hinted-BrandonGrotesque-Light.eot");
-  src: local("Brandon Grotesque Light"), local("BrandonGrotesque-Light"), url("fonts/hinted-BrandonGrotesque-Light.eot?#iefix") format("embedded-opentype"), url("fonts/hinted-BrandonGrotesque-Light.woff2") format("woff2"), url("fonts/hinted-BrandonGrotesque-Light.woff") format("woff"), url("fonts/hinted-BrandonGrotesque-Light.ttf") format("truetype");
+  src: url("/fonts/hinted-BrandonGrotesque-Light.eot");
+  src: local("Brandon Grotesque Light"), local("BrandonGrotesque-Light"), url("/fonts/hinted-BrandonGrotesque-Light.eot?#iefix") format("embedded-opentype"), url("/fonts/hinted-BrandonGrotesque-Light.woff2") format("woff2"), url("/fonts/hinted-BrandonGrotesque-Light.woff") format("woff"), url("/fonts/hinted-BrandonGrotesque-Light.ttf") format("truetype");
   font-weight: 300;
   font-style: normal; }
 
 @font-face {
   font-family: 'BG medium';
-  src: url("fonts/hinted-BrandonGrotesque-Medium.eot");
-  src: local("Brandon Grotesque Medium"), local("BrandonGrotesque-Medium"), url("fonts/hinted-BrandonGrotesque-Medium.eot?#iefix") format("embedded-opentype"), url("fonts/hinted-BrandonGrotesque-Medium.woff2") format("woff2"), url("fonts/hinted-BrandonGrotesque-Medium.woff") format("woff"), url("fonts/hinted-BrandonGrotesque-Medium.ttf") format("truetype");
+  src: url("/fonts/hinted-BrandonGrotesque-Medium.eot");
+  src: local("Brandon Grotesque Medium"), local("BrandonGrotesque-Medium"), url("/fonts/hinted-BrandonGrotesque-Medium.eot?#iefix") format("embedded-opentype"), url("/fonts/hinted-BrandonGrotesque-Medium.woff2") format("woff2"), url("/fonts/hinted-BrandonGrotesque-Medium.woff") format("woff"), url("/fonts/hinted-BrandonGrotesque-Medium.ttf") format("truetype");
   font-weight: 500;
   font-style: normal; }
 
 @font-face {
   font-family: 'BG regular';
-  src: url("fonts/hinted-BrandonGrotesque-Regular.eot");
-  src: local("Brandon Grotesque Regular"), local("BrandonGrotesque-Regular"), url("fonts/hinted-BrandonGrotesque-Regular.eot?#iefix") format("embedded-opentype"), url("fonts/hinted-BrandonGrotesque-Regular.woff2") format("woff2"), url("fonts/hinted-BrandonGrotesque-Regular.woff") format("woff"), url("fonts/hinted-BrandonGrotesque-Regular.ttf") format("truetype");
+  src: url("/fonts/hinted-BrandonGrotesque-Regular.eot");
+  src: local("Brandon Grotesque Regular"), local("BrandonGrotesque-Regular"), url("/fonts/hinted-BrandonGrotesque-Regular.eot?#iefix") format("embedded-opentype"), url("/fonts/hinted-BrandonGrotesque-Regular.woff2") format("woff2"), url("/fonts/hinted-BrandonGrotesque-Regular.woff") format("woff"), url("/fonts/hinted-BrandonGrotesque-Regular.ttf") format("truetype");
   font-weight: normal;
   font-style: normal; }
 
 @font-face {
   font-family: 'BG bold';
-  src: url("fonts/hinted-BrandonGrotesque-Bold.eot");
-  src: local("Brandon Grotesque Bold"), local("BrandonGrotesque-Bold"), url("fonts/hinted-BrandonGrotesque-Bold.eot?#iefix") format("embedded-opentype"), url("fonts/hinted-BrandonGrotesque-Bold.woff2") format("woff2"), url("fonts/hinted-BrandonGrotesque-Bold.woff") format("woff"), url("fonts/hinted-BrandonGrotesque-Bold.ttf") format("truetype");
+  src: url("/fonts/hinted-BrandonGrotesque-Bold.eot");
+  src: local("Brandon Grotesque Bold"), local("BrandonGrotesque-Bold"), url("/fonts/hinted-BrandonGrotesque-Bold.eot?#iefix") format("embedded-opentype"), url("/fonts/hinted-BrandonGrotesque-Bold.woff2") format("woff2"), url("/fonts/hinted-BrandonGrotesque-Bold.woff") format("woff"), url("/fonts/hinted-BrandonGrotesque-Bold.ttf") format("truetype");
   font-weight: bold;
   font-style: normal; }
 
@@ -97,7 +97,7 @@ h2 {
   font-size: 1.28571rem;
   line-height: 2;
   letter-spacing: 0.2px;
-  color: #9013fe;
+  color: #ED7899;
   text-transform: uppercase; }
   @media screen and (max-width: 960px) {
     h2 {
@@ -263,11 +263,11 @@ html, body {
       margin: 0 auto; } }
 
 *::-moz-selection {
-  background-color: #9013fe;
+  background-color: #ED7899;
   color: #fff; }
 
 *::selection {
-  background-color: #9013fe;
+  background-color: #ED7899;
   color: #fff; }
 
 .fixed {
@@ -332,7 +332,7 @@ html, body {
     .filter-bar ul::after {
       content: "";
       width: 80px;
-      background-color: #9013fe;
+      background-color: #ED7899;
       border-radius: 50px;
       height: 30px;
       display: block;
@@ -380,7 +380,7 @@ html, body {
       .filter-bar ul li:last-child {
         padding-right: 20px; }
       .filter-bar ul li:hover {
-        color: #9013fe; }
+        color: #ED7899; }
   @media screen and (max-width: 960px) {
     .filter-bar h3 {
       display: none; }
@@ -392,7 +392,7 @@ html, body {
 nav li {
   display: block; }
   nav li.active a {
-    color: #9013fe; }
+    color: #ED7899; }
   nav li a {
     font-family: "BG bold", sans-serif;
     font-size: 1.35714rem;
@@ -404,7 +404,7 @@ nav li {
     -webkit-transition: .2s ease;
     transition: .2s ease; }
     nav li a:hover {
-      color: #9013fe; }
+      color: #ED7899; }
 
 @media screen and (max-width: 960px) {
   nav {
@@ -425,7 +425,7 @@ nav li {
         -webkit-transition: .2s ease;
         transition: .2s ease; }
       .social li a:hover svg path {
-        fill: #9013fe; }
+        fill: #ED7899; }
   @media screen and (max-width: 960px) {
     .social {
       display: none; } }
@@ -456,11 +456,11 @@ nav li {
         display: inline-block;
         vertical-align: middle; }
         .checklist li .header .check.checked:hover circle {
-          stroke: #9013fe; }
+          stroke: #ED7899; }
         .checklist li .header .check.checked path {
           stroke-dashoffset: 0; }
         .checklist li .header .check.checked circle {
-          stroke: #9013fe; }
+          stroke: #ED7899; }
         .checklist li .header .check svg {
           display: inline-block;
           vertical-align: middle; }
@@ -528,7 +528,7 @@ nav li {
         font-family: "BG medium", sans-serif;
         font-size: 1.5rem;
         line-height: 1.4;
-        color: #9013fe;
+        color: #ED7899;
         text-decoration: none;
         word-break: break-all; }
         .checklist li .body a:hover {
@@ -574,7 +574,7 @@ nav li {
       display: inline-block;
       height: 39px; }
     .newsletter #mc_embed_signup #mc-embedded-subscribe {
-      background-color: #9013fe;
+      background-color: #ED7899;
       font-family: "BG bold";
       font-size: 0.85714rem;
       color: #fff;
@@ -589,7 +589,7 @@ nav li {
       -webkit-transition: .2s ease;
       transition: .2s ease; }
       .newsletter #mc_embed_signup #mc-embedded-subscribe:hover {
-        background-color: #9c2cfe; }
+        background-color: #f08faa; }
   @media screen and (max-width: 960px) {
     .newsletter {
       display: none; } }
@@ -616,7 +616,7 @@ nav li {
   left: 0;
   width: 100vw;
   height: 100vh;
-  background-color: #9013fe;
+  background-color: #ED7899;
   text-align: center;
   overflow: auto;
   opacity: 0;
@@ -684,7 +684,7 @@ nav li {
       .mobile-menu .newsletter-mob #mc_embed_signup #mce-EMAIL {
         font-family: "BG medium", sans-serif;
         font-size: 1.14286rem;
-        background-color: #7601dd;
+        background-color: #e74b77;
         border: none;
         border-top-left-radius: 4px;
         border-bottom-left-radius: 4px;
@@ -710,8 +710,8 @@ nav li {
           background-size: contain;
           background-repeat: no-repeat; }
       .mobile-menu .newsletter-mob #mc_embed_signup #mc-embedded-subscribe {
-        background-color: #a846fe;
-        color: #a846fe;
+        background-color: #f3a5bb;
+        color: #f3a5bb;
         font-family: "BG bold";
         font-size: 0.85714rem;
         text-transform: uppercase;
@@ -731,7 +731,7 @@ nav li {
            -moz-appearance: none;
                 appearance: none; }
         .mobile-menu .newsletter-mob #mc_embed_signup #mc-embedded-subscribe:hover {
-          background-color: #9c2cfe; }
+          background-color: #f08faa; }
   .mobile-menu .social-mob h3 {
     display: inline-block;
     vertical-align: middle;
@@ -751,7 +751,7 @@ nav li {
         -webkit-transition: .2s ease;
         transition: .2s ease; }
       .mobile-menu .social-mob li a:hover svg path {
-        fill: #9013fe; }
+        fill: #ED7899; }
   .mobile-menu .by-sqreen {
     margin-bottom: 30px; }
     .mobile-menu .by-sqreen span {
