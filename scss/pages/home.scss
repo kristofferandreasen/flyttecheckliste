@@ -52,8 +52,8 @@
 }
 
 .description {
-  font-family: "Nunito", sans-serif;
-  font-weight: 400;
+  font-family: $font;
+  font-weight: $base-font-weight;
   font-size: rem-calc(22px);
   line-height: $base-line-height;
   color: $grey;
@@ -136,8 +136,8 @@
     }
 
     li {
-      font-family: "Nunito", sans-serif;
-      font-weight: 800;
+      font-family: $font;
+      font-weight: $bold-font-weight;
     	font-size: rem-calc(16px);
     	color: $grey-light;
       display: inline-block;
@@ -189,8 +189,8 @@ nav {
     }
 
     a {
-      font-family: "Nunito", sans-serif;
-      font-weight: 800;
+      font-family: $font;
+      font-weight: $bold-font-weight;
     	font-size: rem-calc(19px);
     	line-height: 1.9;
     	letter-spacing: 0.1px;
@@ -324,10 +324,10 @@ nav {
         }
 
         p {
-          font-family: "Nunito", sans-serif;
-          font-weight: 400;
+          font-family: $font;
+          font-weight: $base-font-weight;
         	font-size: rem-calc(21px);
-        	line-height: 1;
+        	line-height: $small-line-height;
         	color: $black;
           display: inline;
           transition: .2s ease;
@@ -335,8 +335,8 @@ nav {
         }
 
         .category {
-          font-family: "Nunito", sans-serif;
-          font-weight: 300;
+          font-family: $font;
+          font-weight: $light-font-weight;
           font-size: rem-calc(16px);
           font-style: italic;
           line-height: 1.9;
@@ -367,8 +367,8 @@ nav {
       box-shadow: inset 0px -1px 0px $grey-lighter;
 
       p {
-        font-family: "Nunito", sans-serif;
-        font-weight: 400;
+        font-family: $font;
+        font-weight: $base-font-weight;
       	font-size: rem-calc(20px);
       	line-height: $base-line-height;
       	color: $grey;
@@ -381,8 +381,8 @@ nav {
       }
 
       a {
-        font-family: "Nunito", sans-serif;
-        font-weight: 400;
+        font-family: $font;
+        font-weight: $base-font-weight;
       	font-size: rem-calc(21px);
       	line-height: $base-line-height;
       	color: $violet;
@@ -415,8 +415,8 @@ nav {
   margin-bottom: 30px;
 
   .subtitle {
-    font-family: "Nunito", sans-serif;
-    font-weight: 400;
+    font-family: $font;
+    font-weight: $base-font-weight;
   	font-size: rem-calc(18px);
   	line-height: 2;
   	color: $grey-light;
@@ -440,8 +440,8 @@ nav {
     }
 
     #mce-EMAIL {
-      font-family: "Nunito", sans-serif;
-      font-weight: 400;
+      font-family: $font;
+      font-weight: $base-font-weight;
     	font-size: rem-calc(16px);
     	background-color: $grey-lighter;
       border: none;
@@ -457,7 +457,7 @@ nav {
     #mc-embedded-subscribe {
 	    background-color: $violet;
       font-family: "Nunito";
-      font-weight: 800;
+      font-weight: $bold-font-weight;
     	font-size: rem-calc(12px);
     	color: $white;
       text-transform: uppercase;
@@ -486,7 +486,7 @@ nav {
 
   span {
     font-family: "Nunito";
-    font-weight: 400;
+    font-weight: $base-font-weight;
   	font-size: rem-calc(16px);
   	letter-spacing: -0.5px;
   	color: #c8c8c8;
@@ -543,7 +543,7 @@ nav {
     li {
       text-align: center;
       font-family: "Nunito";
-      font-weight: 800;
+      font-weight: $bold-font-weight;
     	font-size: rem-calc(19px);
     	line-height: 2.6;
     	letter-spacing: 0.1px;
@@ -569,8 +569,8 @@ nav {
 
     .subtitle {
       margin-bottom: 15px;
-      font-family: "Nunito", sans-serif;
-      font-weight: 400;
+      font-family: $font;
+      font-weight: $base-font-weight;
     	font-size: rem-calc(16px);
     	color: rgba(255, 255, 255, 0.5);
     }
@@ -593,8 +593,8 @@ nav {
       }
 
       #mce-EMAIL {
-        font-family: "Nunito", sans-serif;
-        font-weight: 400;
+        font-family: $font;
+        font-weight: $base-font-weight;
       	font-size: rem-calc(16px);
       	background-color: darken($violet, 10%);
         border: none;
@@ -631,7 +631,7 @@ nav {
   	    background-color: lighten($violet, 10%);
   	    color: lighten($violet, 10%);
         font-family: "Nunito";
-        font-weight: 800;
+        font-weight: $bold-font-weight;
       	font-size: rem-calc(12px);
         text-transform: uppercase;
         border: none;

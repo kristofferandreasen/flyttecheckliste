@@ -4,7 +4,7 @@ html, body {
   -webkit-font-smoothing: antialiased;
   min-width: 300px;
   text-rendering: optimizeLegibility;
-  font-family: "Nunito", sans-serif;
+  font-family: $font;
   background-color: $white;
   position: relative;
 }
