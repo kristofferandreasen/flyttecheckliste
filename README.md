@@ -5,3 +5,7 @@ Denne checkliste er lavet for at hjælpe folk med alle de ting, som skal gøres 
 ## Mangler der noget?
 
 Hvis der mangler noget må du meget gerne kontakte mig eller lave et pull request med ændringer her på Github.
+
+## License
+
+Attribution-NonCommercial-ShareAlike 4.0 International
