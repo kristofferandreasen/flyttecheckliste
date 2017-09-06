@@ -1,4 +1,4 @@
-[![logo](https://cto-security-checklist.sqreen.io/images/github.jpg)](https://cto-security-checklist.sqreen.io/)
+[![logo](https://kristofferandreasen.github.io/flyttecheckliste/images/billede.png)](https://kristofferandreasen.github.io/flyttecheckliste/images/billede.png)
 
 # Flytte checkliste
 
